@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como Restaurar Seu Relacionamento com Princípios Bíblicos</title>
+<meta name="description" content="Um guia editorial transformador para reconstruir o amor com a sabedoria de Deus — mesmo quando tudo parece perdido. Acesso imediato e garantia de 7 dias.">
+<meta property="og:title" content="Como Restaurar Seu Relacionamento com Princípios Bíblicos">
+<meta property="og:description" content="Guia bíblico para casais — acesso imediato e garantia de 7 dias.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fira+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  img { max-width: 100%; display: block; }
+
+  :root {
+    --bg:        #fdf7f9;
+    --blush:     #f8e8ee;
+    --blush-2:   #f3d8e2;
+    --rose:      #e8c5d0;
+    --lavender:  #c9a0dc;
+    --purple:    #7d4fa3;
+    --purple-deep:#5b3680;
+    --ink:       #2a1f33;
+    --ink-soft:  #5b4f66;
+    --line:      #e8d6df;
+    --gold:      #c9a84c;
+    --serif:     "DM Serif Display", "Cormorant Garamond", Georgia, serif;
+    --sans:      "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  body {
+    font-family: var(--sans);
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    font-size: 17px;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--ink);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  a { color: var(--purple-deep); }
+
+  .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+  .narrow    { max-width: 720px;  margin: 0 auto; padding: 0 24px; }
+
+  /* Reveal */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .9s ease, transform .9s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+
+  /* Eyebrow / Section labels */
+  .eyebrow {
+    display: inline-block;
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--purple);
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--lavender);
+    margin-bottom: 22px;
+  }
+
+  .section-title {
+    font-size: clamp(2rem, 4.5vw, 3.2rem);
+    font-style: italic;
+  }
+
+  .lead {
+    font-size: 1.08rem;
+    color: var(--ink-soft);
+    max-width: 640px;
+  }
+
+  /* ══════════ COVER ══════════ */
+  .cover {
+    position: relative;
+    padding: 80px 24px 100px;
+    background:
+      radial-gradient(ellipse at top right, #f0d4e2 0%, transparent 55%),
+      radial-gradient(ellipse at bottom left, #e8d4f0 0%, transparent 55%),
+      var(--blush);
+    overflow: hidden;
+    text-align: center;
+  }
+  .cover::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(201,160,220,0.12) 0, transparent 30%),
+      radial-gradient(circle at 80% 70%, rgba(232,197,208,0.18) 0, transparent 30%);
+    pointer-events: none;
+  }
+  .cover-inner { position: relative; max-width: 860px; margin: 0 auto; }
+
+  .cover-issue {
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--purple);
+    font-weight: 600;
+    margin-bottom: 28px;
+  }
+  .cover-issue span { color: var(--ink-soft); margin: 0 12px; }
+
+  .cover-title {
+    font-size: clamp(2.6rem, 7vw, 5.2rem);
+    line-height: 1.02;
+    margin-bottom: 28px;
+  }
+  .cover-title em { color: var(--purple-deep); font-style: italic; }
+
+  .cover-sub {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: clamp(1.1rem, 2vw, 1.35rem);
+    color: var(--ink-soft);
+    max-width: 600px;
+    margin: 0 auto 36px;
+    line-height: 1.45;
+  }
+
+  .cover-verse {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--purple-deep);
+    border-top: 1px solid var(--lavender);
+    border-bottom: 1px solid var(--lavender);
+    padding: 18px 24px;
+    max-width: 520px;
+    margin: 0 auto 36px;
+  }
+  .cover-verse cite {
+    display: block;
+    font-style: normal;
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-top: 12px;
+  }
+
+  .cta-primary {
+    display: inline-block;
+    background: var(--purple-deep);
+    color: #fff;
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 20px 38px;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+    box-shadow: 0 12px 30px -10px rgba(91,54,128,0.45);
+    border: none;
+    cursor: pointer;
+  }
+  .cta-primary:hover {
+    transform: translateY(-2px);
+    background: var(--purple);
+    box-shadow: 0 18px 40px -10px rgba(91,54,128,0.55);
+  }
+
+  .cover-note {
+    margin-top: 18px;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    letter-spacing: 0.05em;
+  }
+
+  /* ══════════ LETTER ══════════ */
+  .letter { padding: 100px 24px; background: #fff; }
+  .letter-body {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  .letter-body p { margin: 0 0 1.2em; }
+  .letter-body p:first-of-type::first-letter {
+    font-family: var(--serif);
+    font-size: 4.5rem;
+    float: left;
+    line-height: 0.85;
+    padding: 8px 12px 0 0;
+    color: var(--purple-deep);
+  }
+  .letter-sign {
+    margin-top: 32px;
+    font-family: var(--serif);
+    font-style: italic;
+    color: var(--purple-deep);
+    font-size: 1.1rem;
+  }
+
+  /* ══════════ PROMISE ══════════ */
+  .promise { padding: 100px 24px; background: var(--blush); }
+  .promise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 56px;
+  }
+  .promise-col {
+    background: #fff;
+    padding: 36px 28px;
+    border-radius: 4px;
+    border-top: 3px solid var(--lavender);
+  }
+  .promise-col h3 { font-size: 1.5rem; font-style: italic; margin-bottom: 14px; }
+  .promise-col p { color: var(--ink-soft); font-size: 0.97rem; }
+
+  /* ══════════ PAIN ══════════ */
+  .pain { padding: 100px 24px; background: #fff; }
+  .pain-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 48px;
+    margin-top: 56px;
+  }
+  .pain-item {
+    border-left: 2px solid var(--rose);
+    padding: 8px 0 8px 22px;
+  }
+  .pain-item h4 { font-size: 1.25rem; font-style: italic; margin-bottom: 8px; }
+  .pain-item p { font-size: 0.96rem; color: var(--ink-soft); }
+
+  /* ══════════ PULL QUOTE ══════════ */
+  .pullquote {
+    background: linear-gradient(135deg, var(--purple-deep), var(--purple));
+    color: #fff;
+    padding: 100px 24px;
+    text-align: center;
+  }
+  .pullquote blockquote {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    max-width: 760px;
+    margin: 0 auto 24px;
+    line-height: 1.3;
+  }
+  .pullquote cite {
+    display: block;
+    font-family: var(--sans);
+    font-style: normal;
+    font-size: 0.78rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--blush);
+    opacity: 0.9;
+  }
+
+  /* ══════════ CHAPTERS ══════════ */
+  .chapters { padding: 100px 24px; background: #fff; }
+  .chapters-feature {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 56px;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 56px;
+  }
+  .chapters-feature .cover-mock {
+    background: linear-gradient(160deg, var(--blush), var(--rose));
+    aspect-ratio: 3/4;
+    border-radius: 6px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 30px 60px -20px rgba(125, 79, 163, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  .cover-mock::before {
+    content: ""; position: absolute; inset: 12px;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 3px;
+    pointer-events: none;
+  }
+  .cover-mock .mock-badge {
+    font-family: var(--sans);
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--purple-deep);
+    font-weight: 600;
+  }
+  .cover-mock .mock-title {
+    font-family: var(--serif);
+    font-size: clamp(1.6rem, 3vw, 2.3rem);
+    font-style: italic;
+    color: var(--purple-deep);
+    line-height: 1.1;
+  }
+  .cover-mock .mock-sub {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 0.9rem;
+    color: var(--ink);
+    opacity: 0.7;
+  }
+
+  .chapters-list { list-style: none; margin: 0; padding: 0; }
+  .chapters-list li {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 20px;
+    align-items: baseline;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .chapters-list .num {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 2rem;
+    color: var(--lavender);
+    line-height: 1;
+  }
+  .chapters-list h4 {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 4px;
+  }
+  .chapters-list p { font-size: 0.92rem; color: var(--ink-soft); margin: 0; }
+
+  /* ══════════ TESTIMONIALS ══════════ */
+  .testimonials { padding: 100px 24px; background: var(--blush); }
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 56px;
+  }
+  .testimonial {
+    background: #fff;
+    padding: 36px 28px;
+    border-radius: 4px;
+    position: relative;
+  }
+  .testimonial::before {
+    content: "\201C";
+    position: absolute;
+    top: -10px; left: 18px;
+    font-family: var(--serif);
+    font-size: 5rem;
+    color: var(--lavender);
+    line-height: 1;
+  }
+  .testimonial-stars { color: var(--gold); margin-bottom: 14px; letter-spacing: 2px; }
+  .testimonial-text {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--ink);
+    margin-bottom: 24px;
+  }
+  .testimonial-author {
+    display: flex; align-items: center; gap: 14px;
+    border-top: 1px solid var(--line);
+    padding-top: 18px;
+  }
+  .testimonial-avatar {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--lavender), var(--purple));
+    color: #fff;
+    display: grid; place-items: center;
+    font-family: var(--serif); font-style: italic;
+    font-size: 1rem;
+  }
+  .testimonial-name { font-weight: 600; font-size: 0.95rem; }
+  .testimonial-loc { font-size: 0.78rem; color: var(--ink-soft); letter-spacing: 0.08em; text-transform: uppercase; }
+
+  /* ══════════ BONUSES ══════════ */
+  .bonuses { padding: 100px 24px; background: #fff; }
+  .bonuses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 56px;
+  }
+  .bonus-card {
+    background: var(--blush);
+    padding: 32px 24px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  .bonus-card::before {
+    content: "B\00d4NUS";
+    position: absolute;
+    top: 18px; right: -32px;
+    background: var(--purple-deep);
+    color: #fff;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    padding: 4px 36px;
+    transform: rotate(35deg);
+    font-weight: 600;
+  }
+  .bonus-card h4 { font-size: 1.25rem; font-style: italic; margin: 14px 0 8px; }
+  .bonus-card p { font-size: 0.92rem; color: var(--ink-soft); margin: 0 0 14px; }
+  .bonus-value {
+    display: inline-block;
+    font-family: var(--serif);
+    font-style: italic;
+    color: var(--purple-deep);
+    font-size: 1rem;
+  }
+
+  /* ══════════ OFFER ══════════ */
+  .offer {
+    padding: 100px 24px;
+    background: linear-gradient(180deg, var(--blush) 0%, #fff 100%);
+  }
+  .offer-box {
+    max-width: 640px;
+    margin: 56px auto 0;
+    background: #fff;
+    border: 1px solid var(--rose);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 40px 80px -30px rgba(125, 79, 163, 0.25);
+  }
+  .offer-head {
+    background: linear-gradient(135deg, var(--purple-deep), var(--purple));
+    color: #fff;
+    padding: 36px 32px;
+    text-align: center;
+  }
+  .offer-head h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+  .offer-head p { color: var(--blush); font-size: 0.95rem; margin: 0; }
+
+  .offer-body { padding: 40px 32px; }
+  .offer-includes { list-style: none; margin: 0 0 32px; padding: 0; }
+  .offer-includes li {
+    padding: 12px 0;
+    border-bottom: 1px dashed var(--line);
+    font-size: 0.95rem;
+    display: flex; gap: 12px; align-items: flex-start;
+  }
+  .offer-includes li::before {
+    content: "\2726";
+    color: var(--purple);
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  .price {
+    text-align: center;
+    padding: 28px 0 32px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 28px;
+  }
+  .price-was {
+    font-size: 0.95rem; color: var(--ink-soft);
+    text-decoration: line-through; margin-bottom: 8px;
+  }
+  .price-label {
+    font-size: 0.72rem; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--purple); font-weight: 600;
+  }
+  .price-main {
+    font-family: var(--serif);
+    font-size: 4rem;
+    color: var(--purple-deep);
+    line-height: 1;
+    margin: 10px 0 6px;
+  }
+  .price-main sup { font-size: 1.4rem; vertical-align: super; }
+  .price-note { font-size: 0.85rem; color: var(--ink-soft); font-style: italic; }
+
+  .cta-block { text-align: center; }
+  .cta-block .cta-primary { display: block; width: 100%; max-width: 100%; padding: 22px 24px; font-size: 0.9rem; }
+  .cta-secure {
+    display: block;
+    margin-top: 14px;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+  }
+
+  .guarantee {
+    margin-top: 28px;
+    background: var(--blush);
+    padding: 20px;
+    border-radius: 6px;
+    display: flex; gap: 16px; align-items: flex-start;
+  }
+  .guarantee-icon { font-size: 1.8rem; flex-shrink: 0; }
+  .guarantee strong { display: block; font-family: var(--serif); font-style: italic; font-size: 1.1rem; color: var(--purple-deep); margin-bottom: 4px; }
+  .guarantee span { font-size: 0.85rem; color: var(--ink-soft); }
+
+  /* ══════════ FAQ ══════════ */
+  .faq { padding: 100px 24px; background: #fff; }
+  .faq-list { margin-top: 48px; }
+  .faq-item { border-bottom: 1px solid var(--line); }
+  .faq-q {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 0;
+    padding: 22px 0;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--ink);
+    cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  }
+  .faq-q::after {
+    content: "+";
+    font-family: var(--sans);
+    font-style: normal;
+    color: var(--purple);
+    font-size: 1.4rem;
+    transition: transform .3s ease;
+  }
+  .faq-item.open .faq-q::after { transform: rotate(45deg); }
+  .faq-a {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease;
+    color: var(--ink-soft);
+  }
+  .faq-item.open .faq-a { max-height: 400px; }
+  .faq-a p { padding: 0 0 22px; margin: 0; font-size: 0.98rem; line-height: 1.6; }
+
+  /* ══════════ FINAL ══════════ */
+  .final {
+    padding: 120px 24px;
+    background: radial-gradient(ellipse at center, #f0d4e2 0%, var(--blush) 60%);
+    text-align: center;
+  }
+  .final-cross { display: block; font-size: 2rem; color: var(--purple); margin-bottom: 24px; }
+  .final h2 {
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    font-style: italic;
+    margin-bottom: 20px;
+    color: var(--purple-deep);
+  }
+  .final p {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--ink-soft);
+    max-width: 540px;
+    margin: 0 auto 36px;
+  }
+
+  /* ══════════ FOOTER ══════════ */
+  footer {
+    background: var(--ink);
+    color: #d4c5dc;
+    padding: 40px 24px;
+    text-align: center;
+    font-size: 0.82rem;
+  }
+  footer a { color: var(--lavender); text-decoration: none; margin: 0 8px; }
+
+  /* ══════════ STICKY CTA ══════════ */
+  .sv2-sticky {
+    position: fixed;
+    bottom: 16px;
+    left: 16px; right: 16px;
+    background: #fff;
+    border: 1px solid var(--rose);
+    border-radius: 999px;
+    padding: 10px 10px 10px 22px;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 14px;
+    box-shadow: 0 20px 50px -10px rgba(125, 79, 163, 0.35);
+    z-index: 100;
+    font-family: "Fira Sans", sans-serif;
+    transform: translateY(160%);
+    opacity: 0;
+    transition: transform .5s ease, opacity .5s ease;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .sv2-sticky.visible { transform: translateY(0); opacity: 1; }
+  .sv2-sticky .sticky-text { font-size: 0.82rem; color: var(--ink); line-height: 1.2; }
+  .sv2-sticky .sticky-text strong {
+    display: block;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--purple-deep);
+  }
+  .sv2-sticky a {
+    background: var(--purple-deep);
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 880px) {
+    .chapters-feature { grid-template-columns: 1fr; gap: 40px; }
+    .chapters-feature .cover-mock { max-width: 320px; margin: 0 auto; }
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .bonuses-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .promise-grid { grid-template-columns: 1fr; gap: 20px; }
+    .pain-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    .cover { padding: 60px 20px 80px; }
+    .letter, .promise, .pain, .chapters, .testimonials, .bonuses, .offer, .faq, .final { padding: 70px 20px; }
+    .offer-body { padding: 30px 22px; }
+  }
+  @media (max-width: 520px) {
+    .sv2-sticky { padding-left: 16px; }
+    .sv2-sticky .sticky-text { font-size: 0.72rem; }
+    .sv2-sticky .sticky-text strong { font-size: 0.85rem; }
+    .sv2-sticky a { padding: 10px 14px; font-size: 0.7rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════ COVER ═══════ -->
+<section class="cover">
+  <div class="cover-inner">
+    <div class="cover-issue">Edi&ccedil;&atilde;o Especial <span>&middot;</span> Guia B&iacute;blico para Casais</div>
+    <h1 class="cover-title">Como restaurar seu <em>relacionamento</em> com princ&iacute;pios b&iacute;blicos</h1>
+    <p class="cover-sub">Um guia editorial para reconstruir o amor com a sabedoria de Deus &mdash; mesmo quando tudo parece perdido.</p>
+    <div class="cover-verse">
+      &ldquo;O amor tudo sofre, tudo cr&ecirc;, tudo espera, tudo suporta.&rdquo;
+      <cite>1 Cor&iacute;ntios 13:7</cite>
+    </div>
+    <a href="#oferta" class="cta-primary">Quero restaurar meu relacionamento</a>
+    <p class="cover-note">&#9889; Acesso imediato &middot; 100% digital &middot; Garantia de 7 dias</p>
+  </div>
+</section>
+
+<!-- ═══════ LETTER ═══════ -->
+<section class="letter">
+  <div class="narrow">
+    <p class="eyebrow reveal">Carta da autora</p>
+    <h2 class="section-title reveal" style="margin-bottom:32px"><em>Querida irm&atilde;, querido irm&atilde;o...</em></h2>
+    <div class="letter-body reveal">
+      <p>Se voc&ecirc; chegou at&eacute; aqui, &eacute; porque algo no seu cora&ccedil;&atilde;o ainda acredita. Mesmo que tudo pare&ccedil;a desabar. Mesmo que as palavras tenham ferido. Mesmo que o sil&ecirc;ncio entre voc&ecirc;s esteja mais alto que qualquer discuss&atilde;o &mdash; ainda existe esperan&ccedil;a.</p>
+      <p>Este guia n&atilde;o promete m&aacute;gica. Promete caminho. Um caminho real, constru&iacute;do sobre a Palavra que jamais falha, com passos pr&aacute;ticos que voc&ecirc; pode dar <em>hoje mesmo</em>, sozinho ou ao lado de quem ama.</p>
+      <p>Deus restaura. E quando Ele restaura, restaura por inteiro.</p>
+      <p class="letter-sign">&mdash; Com amor, em Cristo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PROMISE ═══════ -->
+<section class="promise">
+  <div class="container">
+    <p class="eyebrow reveal">A promessa deste guia</p>
+    <h2 class="section-title reveal"><em>Tr&ecirc;s pilares</em> de transforma&ccedil;&atilde;o</h2>
+    <div class="promise-grid">
+      <div class="promise-col reveal">
+        <h3>O que voc&ecirc; descobre</h3>
+        <p>Por que os relacionamentos quebram &mdash; e os princ&iacute;pios b&iacute;blicos que reconstroem o que parece perdido, do alicerce ao teto.</p>
+      </div>
+      <div class="promise-col reveal">
+        <h3>Para quem &eacute;</h3>
+        <p>Para o casal em crise, para quem est&aacute; sozinho na luta pela pr&oacute;pria casa, e para quem quer prevenir a queda antes que aconte&ccedil;a.</p>
+      </div>
+      <div class="promise-col reveal">
+        <h3>O resultado</h3>
+        <p>Comunica&ccedil;&atilde;o que cura, confian&ccedil;a reconstru&iacute;da, perd&atilde;o genu&iacute;no e uma vida espiritual a dois que une &mdash; em vez de separar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PAIN ═══════ -->
+<section class="pain">
+  <div class="container">
+    <p class="eyebrow reveal">Voc&ecirc; se identifica?</p>
+    <h2 class="section-title reveal"><em>Seu relacionamento</em> est&aacute; passando por isso?</h2>
+    <p class="lead reveal" style="margin-top:18px">Muitos casais sofrem em sil&ecirc;ncio, sem saber por onde come&ccedil;ar. Se alguma destas situa&ccedil;&otilde;es ressoa, este material foi feito para a sua realidade.</p>
+    <div class="pain-grid">
+      <div class="pain-item reveal"><h4>Dist&acirc;ncia emocional crescente</h4><p>Voc&ecirc;s vivem na mesma casa, mas parecem estar em mundos diferentes. O sil&ecirc;ncio d&oacute;i mais do que as palavras.</p></div>
+      <div class="pain-item reveal"><h4>Conversas que s&oacute; machucam</h4><p>Toda conversa importante vira discuss&atilde;o. As palavras saem erradas e as feridas se acumulam sem cura.</p></div>
+      <div class="pain-item reveal"><h4>Confian&ccedil;a quebrada</h4><p>Uma trai&ccedil;&atilde;o, uma mentira ou uma decep&ccedil;&atilde;o profunda abalou o alicerce. Voc&ecirc; quer crer, mas o cora&ccedil;&atilde;o hesita.</p></div>
+      <div class="pain-item reveal"><h4>Perd&atilde;o que n&atilde;o vem</h4><p>Voc&ecirc; sabe que deveria perdoar &mdash; mas como? A m&aacute;goa ainda est&aacute; l&aacute;, e voc&ecirc; n&atilde;o sabe como libert&aacute;-la de verdade.</p></div>
+      <div class="pain-item reveal"><h4>A sensa&ccedil;&atilde;o de que &eacute; tarde</h4><p>Aquela voz interior que diz: j&aacute; passou do ponto sem retorno. Mas no fundo, voc&ecirc; ainda n&atilde;o desistiu.</p></div>
+      <div class="pain-item reveal"><h4>Vida espiritual separada</h4><p>A f&eacute; deveria unir voc&ecirc;s, mas se tornou mais um tema de conflito ou um assunto que se evita.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PULL QUOTE ═══════ -->
+<section class="pullquote">
+  <blockquote class="reveal">&ldquo;Com Deus, nada &eacute; imposs&iacute;vel. Nem mesmo a restaura&ccedil;&atilde;o do seu relacionamento.&rdquo;</blockquote>
+  <cite class="reveal">Lucas 1:37</cite>
+</section>
+
+<!-- ═══════ CHAPTERS ═══════ -->
+<section class="chapters">
+  <div class="container">
+    <p class="eyebrow reveal">Dentro do guia</p>
+    <h2 class="section-title reveal"><em>9 cap&iacute;tulos</em> + Plano de 30 dias</h2>
+
+    <div class="chapters-feature">
+      <div class="cover-mock reveal">
+        <div class="mock-badge">eBook &middot; Edi&ccedil;&atilde;o Digital</div>
+        <div>
+          <div class="mock-title">Como restaurar seu relacionamento</div>
+          <div class="mock-sub" style="margin-top:14px">com princ&iacute;pios b&iacute;blicos</div>
+        </div>
+        <div class="mock-sub" style="font-size:.75rem;letter-spacing:.2em;text-transform:uppercase">9 cap&iacute;tulos &middot; Plano 30 dias</div>
+      </div>
+      <ul class="chapters-list">
+        <li class="reveal"><span class="num">01</span><div><h4>O Fundamento</h4><p>Por que os relacionamentos quebram &mdash; as ra&iacute;zes espirituais e emocionais do problema.</p></div></li>
+        <li class="reveal"><span class="num">02</span><div><h4>Arrependimento e Perd&atilde;o</h4><p>A diferen&ccedil;a entre remorso e arrependimento real &mdash; a porta que abre a restaura&ccedil;&atilde;o.</p></div></li>
+        <li class="reveal"><span class="num">03</span><div><h4>A Arte da Comunica&ccedil;&atilde;o</h4><p>Princ&iacute;pios b&iacute;blicos para se comunicar de forma que edifica &mdash; n&atilde;o que destr&oacute;i.</p></div></li>
+        <li class="reveal"><span class="num">04</span><div><h4>Reconstruindo a Confian&ccedil;a</h4><p>Os pilares pr&aacute;ticos para restaurar a confian&ccedil;a ap&oacute;s trai&ccedil;&atilde;o ou decep&ccedil;&atilde;o.</p></div></li>
+        <li class="reveal"><span class="num">05</span><div><h4>O Papel da Ora&ccedil;&atilde;o</h4><p>Por que casais que oram juntos se separam menos &mdash; e como come&ccedil;ar hoje.</p></div></li>
+        <li class="reveal"><span class="num">06</span><div><h4>Limites Saud&aacute;veis</h4><p>Como estabelecer limites b&iacute;blicos que protegem e fortalecem o relacionamento.</p></div></li>
+        <li class="reveal"><span class="num">07</span><div><h4>Intimidade Plena</h4><p>Corpo, alma e esp&iacute;rito &mdash; a vis&atilde;o sagrada da intimidade conjugal.</p></div></li>
+        <li class="reveal"><span class="num">08</span><div><h4>Quando Buscar Ajuda</h4><p>Sinais de que &eacute; hora de buscar apoio profissional ou pastoral &mdash; sem vergonha.</p></div></li>
+        <li class="reveal"><span class="num">09</span><div><h4>Plano de 30 Dias</h4><p>Um roteiro di&aacute;rio pr&aacute;tico para a restaura&ccedil;&atilde;o completa do seu relacionamento.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ TESTIMONIALS ═══════ -->
+<section class="testimonials">
+  <div class="container">
+    <p class="eyebrow reveal">Hist&oacute;rias reais</p>
+    <h2 class="section-title reveal"><em>Relacionamentos</em> que foram restaurados</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial reveal">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">Est&aacute;vamos prestes a nos separar depois de 14 anos. Eu tinha perdido a esperan&ccedil;a. Este eBook n&atilde;o apenas salvou meu casamento &mdash; ele nos ensinou a realmente nos amar pela primeira vez.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">MA</div>
+          <div><div class="testimonial-name">Mariana A.</div><div class="testimonial-loc">S&atilde;o Paulo, SP</div></div>
+        </div>
+      </div>
+      <div class="testimonial reveal">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">O cap&iacute;tulo sobre perd&atilde;o mudou algo dentro de mim que nenhum terapeuta havia conseguido tocar. A combina&ccedil;&atilde;o da Palavra com orienta&ccedil;&atilde;o pr&aacute;tica &eacute; poderosa demais.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">RC</div>
+          <div><div class="testimonial-name">Roberto C.</div><div class="testimonial-loc">Belo Horizonte, MG</div></div>
+        </div>
+      </div>
+      <div class="testimonial reveal">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">Lemos juntos, um cap&iacute;tulo por semana. As reflex&otilde;es geraram conversas que n&atilde;o t&iacute;nhamos h&aacute; anos. Deus usou este material de forma surpreendente.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">PS</div>
+          <div><div class="testimonial-name">Paula &amp; S&eacute;rgio</div><div class="testimonial-loc">Curitiba, PR</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ BONUSES ═══════ -->
+<section class="bonuses">
+  <div class="container">
+    <p class="eyebrow reveal">Inclusos sem custo extra</p>
+    <h2 class="section-title reveal"><em>3 b&ocirc;nus</em> exclusivos</h2>
+    <div class="bonuses-grid">
+      <div class="bonus-card reveal">
+        <h4>Plano de 30 Dias</h4>
+        <p>Roteiro di&aacute;rio com a&ccedil;&otilde;es pr&aacute;ticas e vers&iacute;culos para cada manh&atilde;.</p>
+        <span class="bonus-value">Valor: MZN 87</span>
+      </div>
+      <div class="bonus-card reveal">
+        <h4>Caderno de Ora&ccedil;&otilde;es</h4>
+        <p>Ora&ccedil;&otilde;es espec&iacute;ficas para cada fase da restaura&ccedil;&atilde;o do casal.</p>
+        <span class="bonus-value">Valor: MZN 67</span>
+      </div>
+      <div class="bonus-card reveal">
+        <h4>Guia de Conversa</h4>
+        <p>Perguntas que reaproximam &mdash; para usar nas noites a dois.</p>
+        <span class="bonus-value">Valor: MZN 47</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ OFFER ═══════ -->
+<section class="offer" id="oferta">
+  <div class="container" style="text-align:center">
+    <p class="eyebrow reveal">Oferta especial de lan&ccedil;amento</p>
+    <h2 class="section-title reveal"><em>Invista no seu relacionamento</em> hoje</h2>
+  </div>
+
+  <div class="offer-box reveal">
+    <div class="offer-head">
+      <h3>&#10013; Pacote Completo de Restaura&ccedil;&atilde;o</h3>
+      <p>Tudo o que voc&ecirc; precisa para recome&ccedil;ar &mdash; com a sabedoria de Deus</p>
+    </div>
+    <div class="offer-body">
+      <ul class="offer-includes">
+        <li>eBook completo (9 cap&iacute;tulos) &mdash; &ldquo;Como Restaurar Seu Relacionamento com Princ&iacute;pios B&iacute;blicos&rdquo;</li>
+        <li>Plano de 30 dias detalhado, com a&ccedil;&otilde;es pr&aacute;ticas para cada dia</li>
+        <li>Ora&ccedil;&otilde;es espec&iacute;ficas para casais em restaura&ccedil;&atilde;o</li>
+        <li>Exerc&iacute;cios e reflex&otilde;es ao final de cada cap&iacute;tulo</li>
+        <li>Acesso em qualquer dispositivo: celular, tablet ou computador</li>
+        <li>Download imediato ap&oacute;s a confirma&ccedil;&atilde;o do pagamento</li>
+      </ul>
+
+      <div class="price">
+        <div class="price-was">De MZN 397,00</div>
+        <span class="price-label">hoje por apenas</span>
+        <div class="price-main"><sup>MZN</sup> 127<sup>,00</sup></div>
+        <div class="price-note">Pagamento &uacute;nico &middot; Sem mensalidades &middot; Acesso vital&iacute;cio</div>
+      </div>
+
+      <div class="cta-block">
+        <a href="https://checkout.escalepay.com/8847611" class="cta-primary">Sim! Quero restaurar meu relacionamento &rarr;</a>
+        <span class="cta-secure">&#128274; Pagamento 100% seguro &middot; Privacidade garantida</span>
+      </div>
+
+      <div class="guarantee">
+        <span class="guarantee-icon">&#128737;&#65039;</span>
+        <div>
+          <strong>Garantia incondicional de 7 dias</strong>
+          <span>Se voc&ecirc; n&atilde;o ficar satisfeito por qualquer motivo, devolvemos seu dinheiro integralmente. Sem perguntas, sem burocracia.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FAQ ═══════ -->
+<section class="faq">
+  <div class="narrow">
+    <p class="eyebrow reveal" style="text-align:center;display:block">D&uacute;vidas frequentes</p>
+    <h2 class="section-title reveal" style="text-align:center"><em>Perguntas</em> e respostas</h2>
+    <div class="faq-list">
+      <div class="faq-item open reveal">
+        <button class="faq-q">Preciso que meu parceiro(a) tamb&eacute;m leia para funcionar?</button>
+        <div class="faq-a"><p>N&atilde;o necessariamente. O processo de restaura&ccedil;&atilde;o come&ccedil;a em voc&ecirc;. Muitas pessoas relatam que, ao aplicar os princ&iacute;pios individualmente, o parceiro percebe a mudan&ccedil;a e naturalmente come&ccedil;a a se abrir. Por&eacute;m, a leitura conjunta potencializa muito os resultados.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Funciona mesmo para situa&ccedil;&otilde;es de trai&ccedil;&atilde;o ou crise severa?</button>
+        <div class="faq-a"><p>Sim. O eBook tem um cap&iacute;tulo espec&iacute;fico sobre reconstru&ccedil;&atilde;o de confian&ccedil;a ap&oacute;s trai&ccedil;&atilde;o, e orienta sobre quando &eacute; necess&aacute;rio buscar apoio terap&ecirc;utico ou pastoral adicional. Os princ&iacute;pios b&iacute;blicos s&atilde;o o alicerce de qualquer restaura&ccedil;&atilde;o genu&iacute;na.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">E se eu n&atilde;o me considerar muito religioso(a)?</button>
+        <div class="faq-a"><p>O material &eacute; baseado na B&iacute;blia, mas os ensinamentos sobre comunica&ccedil;&atilde;o, perd&atilde;o, limites e confian&ccedil;a t&ecirc;m valor universal. Se voc&ecirc; tem f&eacute; em Deus, mesmo que simples, este guia falar&aacute; profundamente com voc&ecirc;.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Como recebo o eBook ap&oacute;s a compra?</button>
+        <div class="faq-a"><p>Imediatamente ap&oacute;s a confirma&ccedil;&atilde;o do pagamento, voc&ecirc; recebe um e-mail com o link para download. O arquivo &eacute; em PDF, acess&iacute;vel em qualquer dispositivo &mdash; celular, tablet ou computador.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">E se eu n&atilde;o gostar? Posso pedir reembolso?</button>
+        <div class="faq-a"><p>Sim, sem nenhuma complica&ccedil;&atilde;o. Voc&ecirc; tem 7 dias ap&oacute;s a compra para solicitar o reembolso integral. Basta entrar em contato e devolvemos seu dinheiro imediatamente, sem questionamentos.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FINAL CTA ═══════ -->
+<section class="final">
+  <span class="final-cross">&#10013;</span>
+  <h2 class="reveal"><em>Deus ainda pode escrever</em><br>um novo cap&iacute;tulo na hist&oacute;ria de voc&ecirc;s.</h2>
+  <p class="reveal">A quest&atilde;o n&atilde;o &eacute; se &eacute; poss&iacute;vel. &Eacute; se voc&ecirc; vai dar o primeiro passo.</p>
+  <a href="https://checkout.escalepay.com/8847611" class="cta-primary reveal">Quero come&ccedil;ar agora &mdash; MZN 127</a>
+  <p class="reveal" style="margin-top:22px;font-size:.8rem;color:var(--ink-soft)">&#128274; Compra segura &middot; Garantia de 7 dias &middot; Acesso imediato</p>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer>
+  <p>&copy; 2026 &middot; Como Restaurar Seu Relacionamento com Princ&iacute;pios B&iacute;blicos</p>
+  <p style="margin-top:10px"><a href="#">Pol&iacute;tica de Privacidade</a> &middot; <a href="#">Termos de Uso</a> &middot; <a href="#">Suporte</a></p>
+  <p style="margin-top:12px;opacity:0.7">Produto digital. Ap&oacute;s a confirma&ccedil;&atilde;o do pagamento, o acesso &eacute; imediato.</p>
+</footer>
+
+<!-- ═══════ STICKY CTA ═══════ -->
+<div class="sv2-sticky" id="stickyCta">
+  <div class="sticky-text">
+    <strong>Restaure seu relacionamento hoje</strong>
+    Acesso imediato &middot; Garantia de 7 dias
+  </div>
+  <a href="https://checkout.escalepay.com/8847611">Quero por 127 MZN</a>
+</div>
+
+<script>
+  // Scroll reveal
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach((i) => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+
+  // Sticky CTA
+  const stickyCta = document.getElementById('stickyCta');
+  const cover = document.querySelector('.cover');
+  function onScroll() {
+    if (!stickyCta || !cover) return;
+    const bottom = cover.offsetTop + cover.offsetHeight;
+    stickyCta.classList.toggle('visible', window.scrollY > bottom - 100);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>
+
+</body>
+</html>
